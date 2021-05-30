@@ -1,0 +1,5 @@
+[from-internal-custom]
+include => zarbinnetwork
+
+[zarbinnetwork]
+exten => _900.,n,AGI(zarbinnetwork_telegram_sendCallinfo.php)
