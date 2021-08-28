@@ -23,7 +23,7 @@ $chat_id = "TelegramChatID";
 include => zarbinnetwork
 
 [zarbinnetwork]
-exten => _900.,n,AGI(zarbinnetwork_telegram_sendCallinfo.php)
+exten => _.,n,AGI(zarbinnetwork_telegram_sendCallinfo.php)
 ```
 6. reload asterisk dialplan
 ```
