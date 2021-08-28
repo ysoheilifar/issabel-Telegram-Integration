@@ -1,4 +1,4 @@
-# issabel Send Telegram when Making Call 00
+# issabel Send Telegram when Making Call
 
 1. Copy all downloaded file in "/var/www/html" directory on issabel
 
