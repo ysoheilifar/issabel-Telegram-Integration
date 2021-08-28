@@ -25,3 +25,9 @@ include => zarbinnetwork
 [zarbinnetwork]
 exten => _900.,n,AGI(zarbinnetwork_mail.php)
 ```
+6.reload asterisk dialplan
+```
+asterisk -r
+reload
+exit
+```
